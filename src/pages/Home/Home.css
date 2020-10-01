@@ -1,0 +1,53 @@
+@media screen and (max-width: 468px) {
+  .home-wrap h1 {
+    font-size: x-large;
+  }
+}
+
+.home-wrap {
+  text-align: center;
+  padding: 0 5%;
+}
+.home-wrap h3 {
+  margin-top: 60px;
+}
+.home-wrap h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.home-wrap h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.home-wrap p {
+  font-size: 14px;
+  font-style: italic;
+}
+.home-wrap #phone {
+  display: block;
+  font-weight: 700;
+}
+.home-wrap #email {
+  font-weight: 400;
+}
+
+hr.light {
+  background-color: teal;
+  height: 0.5px;
+  width: 80%;
+  border-style: none;
+}
+
+hr.bold {
+  background-color: teal;
+  height: 2px;
+  width: 30%;
+  margin-bottom: 5vh;
+  border-style: none;
+}
+
+hr.white {
+  height: 0.5px;
+  width: 80%;
+  border-style: none;
+}

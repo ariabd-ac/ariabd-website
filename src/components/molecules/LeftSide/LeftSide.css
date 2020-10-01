@@ -1,0 +1,171 @@
+.left-side {
+  flex-grow: 1;
+  height: 100vh;
+  max-width: 30%;
+  background: #000;
+}
+
+.cover-photo {
+  background-color: #000;
+  background-size: 100%;
+  height: 78vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.cover-photo img {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.identity {
+  bottom: 10px;
+  color: #fff;
+  display: block;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+}
+
+.identity > h3 {
+  color: #fff;
+  margin: 0 2%;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #000;
+}
+.identity > p {
+  text-shadow: 0 0 5px #000;
+  color: #fff;
+  font-size: 12px;
+  font-style: italic;
+  margin: 10px 2%;
+  text-transform: uppercase;
+}
+
+.cover-social {
+  background: #000;
+  height: 6vh;
+}
+
+.cover-social ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  margin-top: 7px;
+}
+.cover-social ul li {
+  flex-grow: 1;
+  padding: 1px;
+}
+.cover-social ul a {
+  color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  .cover-photo img {
+    width: 120%;
+    margin-left: -10%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .left-side {
+    max-width: none;
+    width: 80%;
+    height: auto;
+  }
+
+  .cover-photo {
+    height: 270px;
+    position: relative;
+  }
+  .cover-photo img {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+  }
+  .cover-photo .identity {
+    bottom: auto;
+    top: 15px;
+  }
+
+  .cover-social {
+    height: 35px;
+    padding-top: 10px;
+  }
+
+  .cover-social ul li {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cover-photo img {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cover-photo {
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover-photo .identity {
+    text-align: center;
+    top: 180px;
+  }
+  .cover-photo.identity p {
+    font-style: normal;
+  }
+
+  .cover-photo .identity {
+    text-align: center;
+    top: 180px;
+  }
+  .cover-photo.identity p {
+    font-style: normal;
+  }
+
+  .cover-social ul {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .identity h3 {
+    font-size: 16px;
+  }
+  .identity p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .cover-photo img {
+    width: 55%;
+    margin-top: -2vh;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .cover-photo img {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .cover-photo {
+    background-color: #000;
+    background-size: 100%;
+    height: 78vh;
+    overflow: hidden;
+    position: relative;
+  }
+}

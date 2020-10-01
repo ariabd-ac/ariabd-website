@@ -1,0 +1,44 @@
+.right-side {
+  background: #fff;
+  flex-grow: 3;
+  height: 100vh;
+  max-width: 70%;
+}
+
+.main-container {
+  background: #fff;
+  overflow: auto;
+  height: 76vh;
+}
+
+.main-container h2,
+.main-container p,
+.main-container span {
+  line-height: 2em;
+  margin: 2px 3%;
+}
+
+div.main-container.ng-enter {
+  transition: 0.5s linear all;
+  opacity: 0;
+}
+
+div.main-container.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+
+@media screen and (max-width: 780px) {
+  .right-side {
+    max-width: none;
+  }
+  .main-container {
+    overflow: visible;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .right-side {
+    width: 80%;
+  }
+}
