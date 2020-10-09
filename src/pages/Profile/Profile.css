@@ -1,0 +1,236 @@
+@media screen and (max-width: 468px) {
+  .my-data {
+    padding: 5px 5%;
+  }
+
+  .my-data {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 15px;
+  }
+
+  .bio-data {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .bio-data div {
+    margin-bottom: 0.5em;
+  }
+  .bio-data div i {
+    width: 5%;
+    margin-right: 15px;
+  }
+  .bio-data div:nth-child(1) {
+    text-align: left;
+    font-weight: 600;
+    max-width: 50%;
+  }
+  .bio-data div:nth-child(2) {
+    display: block;
+    flex-grow: 1;
+    text-align: right;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .bio-data {
+    flex-wrap: wrap;
+    width: 70%;
+  }
+  .bio-data div:nth-child(1) {
+    width: 100%;
+    max-width: none;
+  }
+  .bio-data div:nth-child(2) {
+    text-align: left;
+    max-width: none;
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hobbies {
+    flex-wrap: wrap;
+  }
+  .hobby {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .bio-data div:nth-child(1) {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .bio-data div:nth-child(2) {
+    font-size: 14px;
+  }
+}
+
+.my-data {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 15%;
+}
+
+.bio-data {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bio-data div {
+  margin-bottom: 0.5em;
+}
+
+.bio-data div i {
+  width: 5%;
+  margin-right: 15px;
+}
+
+.bio-data div:nth-child(1) {
+  text-align: left;
+  flex-grow: 1;
+  font-weight: 600;
+  max-width: 50%;
+}
+
+.bio-data div:nth-child(2) {
+  display: block;
+  flex-grow: 1;
+  text-align: right;
+  max-width: 50%;
+}
+
+h3.title {
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3.title span {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+
+hr.bold {
+  background-color: teal;
+  height: 2px;
+  width: 30%;
+  margin-bottom: 5vh;
+  border-style: none;
+}
+
+.global-class-name {
+  /* margin-left: 40px; */
+  padding-right: 10px;
+}
+
+.line-wrap {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.table-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.table-wrap.first-head {
+  height: 70px;
+}
+
+.table-wrap .time-table {
+  flex-grow: 1;
+  position: relative;
+  overflow: visible;
+  width: 29%;
+}
+
+.table-wrap .time-table div {
+  margin: 0 -15px;
+  position: relative;
+  width: 100%;
+  text-align: right;
+}
+
+.table-wrap .time-table div h5 {
+  margin-top: 0;
+}
+
+.table-wrap .content-table {
+  border-left: solid 2px teal;
+  flex-grow: 3;
+  width: 70%;
+  position: relative;
+  overflow: visible;
+}
+
+.table-wrap .content-table i.ico-resume {
+  background: teal;
+  border-radius: 50%;
+  color: #fff;
+  height: 40px;
+  left: -20px;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  width: 40px;
+}
+
+.table-wrap .content-table i.dot {
+  background: teal;
+  border-radius: 50%;
+  position: absolute;
+  height: 10px;
+  left: -6px;
+  top: 4px;
+  width: 10px;
+}
+
+.table-wrap .content-table div {
+  margin: 0;
+  padding: 0 5%;
+  position: relative;
+}
+
+.table-wrap .content-table div h5 {
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.table-wrap .content-table div p {
+  margin-left: 0;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 2em;
+}
+
+.my-hobby {
+  background: #f3f2f2;
+  padding: 15px 4%;
+}
+.my-hobby p {
+  font-size: 12px;
+  line-height: 2em;
+  text-align: center;
+}
+
+.hobbies {
+  display: flex;
+}
+
+.hobby {
+  flex-grow: 1;
+  text-align: center;
+}

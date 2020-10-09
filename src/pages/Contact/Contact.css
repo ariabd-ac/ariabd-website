@@ -1,0 +1,74 @@
+@media screen and (max-width: 800px) {
+  .contact-wrap .map {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contact-wrap .map {
+    height: 290px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact-wrap .map {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .contact-wrap .map {
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contact-wrap .map {
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-wrap .map {
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .contact-wrap .map {
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .contact-wrap .map {
+    height: 180px;
+  }
+}
+
+.contact-wrap {
+  margin: 0 auto;
+  width: 90%;
+}
+.contact-wrap h4 {
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+.contact-wrap p {
+  text-align: center;
+  font-weight: lighter;
+}
+.contact-wrap .map {
+  border-top: solid 2px teal;
+  border-bottom: solid 2px teal;
+  height: 50vh;
+}
+
+hr.bold {
+  background-color: teal;
+  height: 2px;
+  width: 30%;
+  margin-bottom: 5vh;
+  border-style: none;
+}

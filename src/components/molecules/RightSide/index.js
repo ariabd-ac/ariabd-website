@@ -1,15 +1,36 @@
 import React from "react";
 import Header from "../Header";
 import "./RightSide.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Home, Contact, Porto, Resume, Profile } from "../../../pages";
 
 const RightSide = () => {
   return (
-    <div class="right-side">
-      <Header />
-      <div className="main-container">
-        <Router>
+    <div className="right-side">
+      {/* <Header /> */}
+      <Router>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Welcome</Link>
+            </li>
+            <li>
+              <Link to="/profile">Profile</Link>
+            </li>
+            <li>
+              <Link to="/resume">Resume</Link>
+            </li>
+            <li>
+              <Link to="/portofolio">Portofolio</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+          </ul>
+
+          {/*  */}
+        </nav>
+        <div className="main-container">
           <Switch>
             {/* <Route path="/contact">
             <Contact />
@@ -33,8 +54,8 @@ const RightSide = () => {
             <Route exact path="/portofolio" component={Porto} />
             <Route exact path="/contact" component={Contact} />
           </Switch>
-        </Router>
-      </div>
+        </div>
+      </Router>
     </div>
   );
 };

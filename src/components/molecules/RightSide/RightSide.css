@@ -35,6 +35,9 @@ div.main-container.ng-enter.ng-enter-active {
     overflow: visible;
     height: auto;
   }
+  .nav ul li {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 560px) {
@@ -42,3 +45,57 @@ div.main-container.ng-enter.ng-enter-active {
     width: 80%;
   }
 }
+
+nav {
+  background: #f3f2f2;
+  display: block;
+}
+nav ul {
+  display: flex;
+  height: 8vh;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul .active {
+  background: #fff;
+  color: teal;
+  font-weight: 600;
+}
+nav ul .active:hover {
+  background: #fff;
+}
+nav ul li {
+  cursor: pointer;
+  color: #6f6f6f;
+  flex-grow: 1;
+  font-size: 14px;
+  list-style-type: none;
+  padding: 2vh 2%;
+  text-align: center;
+  text-transform: uppercase;
+}
+nav ul li:hover {
+  background: #e6e6e6;
+  color: teal;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 900px) {
+  nav ul {
+    height: auto;
+  }
+  nav ul li {
+    font-size: 12px;
+  }
+}
+
+/* @media screen and (max-width: 780px) {
+  nav ul li {
+    font-size: 14px;
+  }
+} */

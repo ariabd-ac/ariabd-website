@@ -1,9 +1,8 @@
 import React from "react";
-import { pasPhotoAri, exPhoto, aripng } from "../../../assets";
+import { aripng } from "../../../assets";
 import "./LeftSide.css";
 import { GrFacebook, GrInstagram, GrLinkedinOption } from "react-icons/gr";
 import { FaTwitter } from "react-icons/fa";
-
 
 const LeftSide = () => {
   return (
@@ -16,11 +15,11 @@ const LeftSide = () => {
         </div>
       </div>
 
-      <div class="cover-social">
+      <div className="cover-social">
         <ul>
           <li>
             <a
-              class="sosmed"
+              className="sosmed"
               href="https://www.facebook.com/elitkill008"
               target="_blank"
             >
@@ -29,7 +28,7 @@ const LeftSide = () => {
           </li>
           <li>
             <a
-              class="sosmed"
+              className="sosmed"
               href="https://twitter.com/ariabd_id"
               target="_blank"
             >
@@ -38,7 +37,7 @@ const LeftSide = () => {
           </li>
           <li>
             <a
-              class="sosmed"
+              className="sosmed"
               href="https://www.instagram.com/ariabd.ac/"
               target="_blank"
             >
@@ -47,7 +46,7 @@ const LeftSide = () => {
           </li>
           <li>
             <a
-              class="sosmed"
+              className="sosmed"
               href="https://www.linkedin.com/in/ariabdac007/"
               target="_blank"
             >

@@ -1,0 +1,248 @@
+.line-wrap {
+  margin: 0 auto;
+  width: 90%;
+}
+
+hr.bold {
+  background-color: teal;
+  height: 2px;
+  width: 30%;
+  margin-bottom: 5vh;
+  border-style: none;
+}
+
+h3.title {
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+h3.title span {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+
+.table-wrap.first-head {
+  height: 70px;
+}
+
+.table-wrap .time-table {
+  flex-grow: 1;
+  position: relative;
+  overflow: visible;
+  width: 29%;
+}
+.table-wrap .time-table div {
+  margin: 0 -15px;
+  position: relative;
+  width: 100%;
+  text-align: right;
+}
+.table-wrap .time-table div h5 {
+  margin-top: 0;
+}
+.table-wrap .content-table {
+  border-left: solid 2px teal;
+  flex-grow: 3;
+  width: 70%;
+  position: relative;
+  overflow: visible;
+}
+
+.my-skill {
+  margin: 0 auto;
+  width: 90%;
+}
+.skill {
+  margin-bottom: 10px;
+}
+.bar-skill {
+  background: 0 0;
+  border-style: solid;
+  border-width: 3px;
+  border-color: teal;
+}
+.percent-skill-100 {
+  background: teal;
+  height: 10px;
+  width: 100%;
+  border: none;
+}
+.percent-skill-95 {
+  background: teal;
+  height: 10px;
+  width: 95%;
+  border: none;
+}
+.percent-skill-90 {
+  background: teal;
+  height: 10px;
+  width: 90%;
+  border: none;
+}
+.percent-skill-85 {
+  background: teal;
+  height: 10px;
+  width: 85%;
+  border: none;
+}
+.percent-skill-80 {
+  background: teal;
+  height: 10px;
+  width: 80%;
+  border: none;
+}
+.percent-skill-75 {
+  background: teal;
+  height: 10px;
+  width: 75%;
+  border: none;
+}
+.percent-skill-70 {
+  background: teal;
+  height: 10px;
+  width: 70%;
+  border: none;
+}
+.percent-skill-65 {
+  background: teal;
+  height: 10px;
+  width: 65%;
+  border: none;
+}
+.percent-skill-60 {
+  background: teal;
+  height: 10px;
+  width: 60%;
+  border: none;
+}
+.percent-skill-55 {
+  background: teal;
+  height: 10px;
+  width: 55%;
+  border: none;
+}
+.percent-skill-50 {
+  background: teal;
+  height: 10px;
+  width: 50%;
+  border: none;
+}
+.percent-skill-45 {
+  background: teal;
+  height: 10px;
+  width: 45%;
+  border: none;
+}
+.percent-skill-40 {
+  background: teal;
+  height: 10px;
+  width: 40%;
+  border: none;
+}
+.percent-skill-35 {
+  background: teal;
+  height: 10px;
+  width: 35%;
+  border: none;
+}
+.percent-skill-30 {
+  background: teal;
+  height: 10px;
+  width: 30%;
+  border: none;
+}
+.percent-skill-25 {
+  background: teal;
+  height: 10px;
+  width: 25%;
+  border: none;
+}
+.percent-skill-20 {
+  background: teal;
+  height: 10px;
+  width: 20%;
+  border: none;
+}
+.percent-skill-15 {
+  background: teal;
+  height: 10px;
+  width: 15%;
+  border: none;
+}
+.percent-skill-10 {
+  background: teal;
+  height: 10px;
+  width: 10%;
+  border: none;
+}
+.percent-skill-5 {
+  background: teal;
+  height: 10px;
+  width: 5%;
+  border: none;
+}
+.percent-skill-0 {
+  background: teal;
+  height: 10px;
+  width: 0%;
+  border: none;
+}
+
+.name-bar {
+  display: flex;
+}
+.name-bar span:nth-child(1) {
+  flex-grow: 1;
+  font-weight: 600;
+  text-align: left;
+}
+.name-bar span:nth-child(2) {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.my-services {
+  margin: 0 auto;
+  width: 90%;
+}
+.my-services p {
+  font-size: 12px;
+  line-height: 2em;
+  text-align: center;
+}
+.services {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service {
+  flex-grow: 1;
+  font-size: 12px;
+  padding: 2vh 2%;
+  text-align: center;
+  width: 42%;
+}
+.service i {
+  background: teal;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 24px;
+  height: 95px;
+  line-height: 95px;
+  margin: auto auto;
+  width: 95px;
+}
+.service hr {
+  width: 5%;
+  height: 2px;
+  background-color: teal;
+}
+@media screen and (max-width: 500px) {
+  .service {
+    width: 50%;
+  }
+  .service {
+    flex-wrap: wrap;
+  }
+}

@@ -22,13 +22,19 @@
   }
 }
 
+@media screen and (max-width: 360) {
+  .wrap {
+  }
+}
+
 .main-wrapper {
   background: #fff;
   height: 84vh;
   margin: 8vh 4%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .wrapper {
   display: flex;
+  /* overflow: scroll; */
 }
